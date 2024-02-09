@@ -70,8 +70,7 @@ jobs:
     - name: Terraform plan download
       uses: actions/download-artifacts@v2
       with:
-        name: tfplan
-        path: .
+        name: tfplan        
 
     #Terraform apply
     - name: Teraform apply
